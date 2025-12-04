@@ -103,10 +103,25 @@ export default function RootLayout({
 			lang='tr'
 			maximum-scale='1'>
 			<head>
+				{/* Schema Markup */}
 				<script
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{ __html: schemaString }}
 				/>
+				
+				{/* Google Analytics (GA4) */}
+				<Script
+					src="https://www.googletagmanager.com/gtag/js?id=G-B86Q3W5JM6" // ← REPLACE WITH YOUR GA4 ID
+					strategy="afterInteractive"
+				/>
+				<Script id="google-analytics" strategy="afterInteractive">
+					{`
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config', 'G-B86Q3W5JM6'); // ← REPLACE WITH YOUR GA4 ID
+					`}
+				</Script>
 			</head>
 			<body
 				className={cn(
