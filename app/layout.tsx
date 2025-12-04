@@ -13,7 +13,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-	title: "Spell It",
+	title: "Spell Bee",
 	description: "A spelling game for everyone",
 	keywords: "spell bee, spelling bee nyt, guess the word game, word guess, spelling game, vocabulary, word puzzle, educational game",
 };
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const videoGameSchema = {
 	"@context": "https://schema.org",
 	"@type": "VideoGame",
-	"name": "Spell It",
+	"name": "Spell Bee",
 	"description": "A spelling game for everyone",
 	"url": "https://spellbeenyt.github.io", 
 	"applicationCategory": "Game",
