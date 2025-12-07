@@ -15,7 +15,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
 	title: "Spell Bee",
 	description: "A spelling game for everyone",
-	keywords: "spell bee, spelling bee nyt, guess the word game, word guess, spelling game, vocabulary, word puzzle, educational game",
+	keywords: "spell bee, spelling bee, guess the word game, word guess, spelling game, vocabulary, word puzzle, educational game",
 };
 
 const videoGameSchema = {
@@ -27,7 +27,7 @@ const videoGameSchema = {
 	"applicationCategory": "Game",
 	"gamePlatform": "Web Browser",
 	"genre": ["Educational", "Word Game", "Spelling", "Puzzle"],
-	"keywords": "spell bee, spelling bee nyt, guess the word game, word guess, spelling game, vocabulary, word puzzle, educational game, language game, spelling practice",
+	"keywords": "spell bee, spelling bee, guess the word game, word guess, spelling game, vocabulary, word puzzle, educational game, language game, spelling practice",
 	"operatingSystem": "Web",
 	"author": {
 		"@type": "Person",
@@ -59,7 +59,7 @@ const videoGameSchema = {
 				"@type": "Person",
 				"name": "Sarah Johnson"
 			},
-			"datePublished": "2024-01-15",
+			"datePublished": "2025-12-01",
 			"reviewBody": "Excellent spelling game! Great for vocabulary building.",
 			"reviewRating": {
 				"@type": "Rating",
