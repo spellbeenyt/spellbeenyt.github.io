@@ -102,9 +102,9 @@ export default function RootLayout({
 		<html
 			lang='tr'
 			maximum-scale='1'>
-			<head>
+			<head>				
+
 				
-             <meta name="google-adsense-account" content="ca-pub-1652304322444391">
 				
 				{/* Schema Markup */}
 				<script
