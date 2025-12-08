@@ -53,15 +53,7 @@ const videoGameSchema = {
   "interactivityType": "active",
   "isAccessibleForFree": true
 }
-		}
-	],
-	"softwareRequirements": "Web browser with JavaScript enabled",
-	"educationalUse": "Spelling practice, vocabulary building, language learning",
-	"learningResourceType": "Game",
-	"typicalAgeRange": "6-99",
-	"timeRequired": "PT5M", // 5 minutes per session
-	"interactivityType": "active",
-	"isAccessibleForFree": true
+		}	
 };
 
 export default function RootLayout({
