@@ -44,42 +44,7 @@ const videoGameSchema = {
 		"@type": "PeopleAudience",
 		"suggestedMinAge": "6",
 		"suggestedMaxAge": "99"
-	},
-	"aggregateRating": {
-		"@type": "AggregateRating",
-		"ratingValue": "4.8",
-		"ratingCount": "1250",
-		"bestRating": "5",
-		"worstRating": "1"
-	},
-	"review": [
-		{
-			"@type": "Review",
-			"author": {
-				"@type": "Person",
-				"name": "Sarah Johnson"
-			},
-			"datePublished": "2025-12-01",
-			"reviewBody": "Excellent spelling game! Great for vocabulary building.",
-			"reviewRating": {
-				"@type": "Rating",
-				"ratingValue": "5",
-				"bestRating": "5"
-			}
-		},
-		{
-			"@type": "Review",
-			"author": {
-				"@type": "Person",
-				"name": "Michael Chen"
-			},
-			"datePublished": "2025-12-04",
-			"reviewBody": "Fun and educational. Perfect for word game enthusiasts.",
-			"reviewRating": {
-				"@type": "Rating",
-				"ratingValue": "4.5",
-				"bestRating": "5"
-			}
+	}
 		}
 	],
 	"softwareRequirements": "Web browser with JavaScript enabled",
